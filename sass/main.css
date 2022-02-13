@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+body .container {
+  text-align: center;
+}
+body .container .img-box img {
+  width: 300px;
+  height: 400px;
+}
+body .container .btn-container button {
+  background-color: #3b3939;
+  margin: 10px;
+  padding: 10px 20px;
+  width: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+body .container .btn-container button:first-child:hover {
+  background-color: green;
+}
+body .container .btn-container button:last-child:hover {
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */

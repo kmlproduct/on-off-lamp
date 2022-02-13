@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  .container {
+    text-align: center;
+    .img-box {
+      img {
+        width: 300px;
+        height: 400px;
+      }
+    }
+    .btn-container {
+      button {
+        background-color: rgb(59, 57, 57);
+        margin: 10px;
+        padding: 10px 20px;
+        width: 100px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 7px;
+        &:first-child:hover {
+          background-color: green;
+        }
+        &:last-child:hover {
+          background-color: red;
+        }
+      }
+      .btn-off {
+      }
+    }
+  }
+}
