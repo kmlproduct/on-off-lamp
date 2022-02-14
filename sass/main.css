@@ -10,26 +10,22 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #b5e8fc;
+  height: 100vh;
+  position: relative;
 }
 body .container {
   text-align: center;
-  position: relative;
 }
-body .container .triangle {
-  border-bottom: 300px solid #e4f80ea6;
-  border-right: 200px solid transparent;
-  border-left: 200px solid transparent;
+body .container .img-box .shadow {
+  height: 48%;
+  width: 100%;
+  background: #ffff0080;
   position: absolute;
-  left: -31%;
-  top: 98px;
-}
-body .container .img-box {
-  margin-bottom: 200px;
-}
-body .container .img-box img {
-  width: 400px;
-  height: 400px;
-  background: none;
+  left: -50%;
+  transform: translateX(50%);
+  -webkit-clip-path: polygon(50% -9%, 50% -9%, 100% 100%, 0% 100%);
+          clip-path: polygon(50% -9%, 50% -9%, 100% 100%, 0% 100%);
+  top: 473px;
 }
 body .container .btn-container button {
   background-color: #3b3939;

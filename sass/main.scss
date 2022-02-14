@@ -9,26 +9,30 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: rgb(181, 232, 252);
+  height: 100vh;
+  position: relative;
   .container {
     text-align: center;
-    position: relative;
 
-    .triangle {
-      border-bottom: 300px solid #e4f80ea6;
-      border-right: 200px solid transparent;
-      border-left: 200px solid transparent;
-      position: absolute;
-      left: -31%;
-
-      top: 98px;
-    }
+    // .triangle {
+    //   background-image: url("../img/Untitled-5.jpg");
+    // }
 
     .img-box {
-      margin-bottom: 200px;
-      img {
-        width: 400px;
-        height: 400px;
-        background: none;
+      // img {
+      //   width: 400px;
+      //   height: 400px;
+      //   background: none;
+      // }
+      .shadow {
+        height: 48%;
+        width: 100%;
+        background: #ffff0080;
+        position: absolute;
+        left: -50%;
+        transform: translateX(50%);
+        clip-path: polygon(50% -9%, 50% -9%, 100% 100%, 0% 100%);
+        top: 473px;
       }
     }
 
