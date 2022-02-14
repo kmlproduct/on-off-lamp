@@ -9,13 +9,27 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #b5e8fc;
 }
 body .container {
   text-align: center;
+  position: relative;
+}
+body .container .triangle {
+  border-bottom: 300px solid #e4f80ea6;
+  border-right: 200px solid transparent;
+  border-left: 200px solid transparent;
+  position: absolute;
+  left: -31%;
+  top: 98px;
+}
+body .container .img-box {
+  margin-bottom: 200px;
 }
 body .container .img-box img {
-  width: 300px;
+  width: 400px;
   height: 400px;
+  background: none;
 }
 body .container .btn-container button {
   background-color: #3b3939;

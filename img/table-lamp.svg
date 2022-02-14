@@ -1,23 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sass/main.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <title>On-Off-lamp</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="triangle" id="triangle"></div>
-        <div class="img-box">
-            <svg id="faa" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" viewBox="0 0 424.228 424.228" style="enable-background:new 0 0 424.228 424.228;"
-                xml:space="preserve">
-                <path d="M331.295,172.538c-0.617-0.634-61.842-64.385-68.652-149.579c-0.186-2.339-2.139-4.142-4.485-4.142h-23.166
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 424.228 424.228" style="enable-background:new 0 0 424.228 424.228;" xml:space="preserve">
+<path d="M331.295,172.538c-0.617-0.634-61.842-64.385-68.652-149.579c-0.186-2.339-2.139-4.142-4.485-4.142h-23.166
 	C232.888,8.106,223.432,0,212.114,0c-11.318,0-20.774,8.106-22.877,18.817h-23.167c-2.347,0-4.299,1.803-4.485,4.142
 	c-6.81,85.194-68.035,148.945-68.652,149.579c-1.263,1.296-1.627,3.223-0.924,4.89c0.703,1.667,2.336,2.751,4.146,2.751h102.832
 	v16.015c-5.896,1.766-10.189,7.08-10.189,13.346c0,2.209,0.548,4.292,1.497,6.15c-0.072,0.065-27.118,23.335-27.118,47.697
@@ -40,20 +26,35 @@
 	C238.668,233.496,252.052,247.985,252.052,263.388z M220.964,214.51h-17.7c-3.015,0-5.467-2.23-5.467-4.97
 	c0-2.74,2.452-4.97,5.467-4.97h17.7c3.015,0,5.467,2.23,5.467,4.97C226.431,212.28,223.979,214.51,220.964,214.51z M216.241,195.57
 	h-8.255V180.18h8.255V195.57z M284.038,171.18c-31.971-48.165-39.459-123.88-40.891-143.362h10.897
-	c4.471,44.522,22.927,82.607,37.868,106.999c10.14,16.553,19.886,28.999,26.115,36.363H284.038z" />
-            </svg>
-
-        </div>
-
-
-
-
-        <div class="btn-container">
-            <button class="btn-on" id="btn-on">On</button>
-            <button class="btn-off" id="btn-off">Off</button>
-        </div>
-    </div>
-    <script src="main.js"></script>
-</body>
-
-</html>
+	c4.471,44.522,22.927,82.607,37.868,106.999c10.14,16.553,19.886,28.999,26.115,36.363H284.038z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>

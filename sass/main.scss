@@ -8,14 +8,30 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: rgb(181, 232, 252);
   .container {
     text-align: center;
+    position: relative;
+
+    .triangle {
+      border-bottom: 300px solid #e4f80ea6;
+      border-right: 200px solid transparent;
+      border-left: 200px solid transparent;
+      position: absolute;
+      left: -31%;
+
+      top: 98px;
+    }
+
     .img-box {
+      margin-bottom: 200px;
       img {
-        width: 300px;
+        width: 400px;
         height: 400px;
+        background: none;
       }
     }
+
     .btn-container {
       button {
         background-color: rgb(59, 57, 57);
